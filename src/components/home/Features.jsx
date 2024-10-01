@@ -8,10 +8,10 @@ const Features = () => {
   return (
     <div className="bg-main_bg_color flex flex-col items-center text-center py-20 px-5">
       <div className="">
-        <h1 className="gradient-text font-bold text-4xl mb-3">
+        <h1 className="gradient-text font-bold text-3xl md:text-4xl mb-3">
           Features Overview
         </h1>
-        <p className="max-w-xl text-white mb-28">
+        <p className="max-w-xl text-white mb-28 text-base">
           Provides a secure, blockchain-powered voting system with encrypted,
           tamper-proof votes and real-time verification. Its decentralized
           structure ensures transparent and trustworthy elections for all.

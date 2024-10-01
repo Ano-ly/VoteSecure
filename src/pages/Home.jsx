@@ -7,7 +7,7 @@ import Revolution from "../components/home/Revolution";
 
 const Home = () => {
   return (
-    <div className="main-hero-bg w-full overflow-x-hidden ">
+    <div className="main-hero-bg relative ">
       <header>
         <Navbar />
       </header>

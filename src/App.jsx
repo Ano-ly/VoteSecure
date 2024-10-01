@@ -8,7 +8,7 @@ import {
   Sharedlayout,
 } from './pages';
 
-import './App.css';
+// import './App.css';
 
 function App() {
   return (

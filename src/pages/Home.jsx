@@ -12,7 +12,7 @@ const Home = () => {
       <header>
         <Navbar/>
       </header>
-      <main>
+      <main className='flex flex-col gap-7 overflow-y-auto   bg-main_bg_color'>
         <div className='font-bold text-4xl gradient-text'><h2>home</h2></div>
         <Herosection/>
         <Features/>

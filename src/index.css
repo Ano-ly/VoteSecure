@@ -2,25 +2,37 @@
 @tailwind components;
 @tailwind utilities;
 
-
-
-
 @layer utilities {
   .gradient-text {
-    background-image: linear-gradient(to right, #002066, #75769b, #FFFFFF);
+    background-image: linear-gradient(to right, #002066, #75769b, #ffffff);
     background-clip: text;
     color: transparent;
   }
   .main-hero-bg{
     background-image: linear-gradient(#001646, #191919);
   }
+  .main-hero-bg {
+    background-image: linear-gradient(#001646, #191919);
+  }
+
 }
 
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+html,
+body {
+  overflow-x: hidden;
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  outline: none;
+}
   
 
-}
+
 
 
 .card {
@@ -65,9 +77,4 @@ body {
 main {
   min-height: 100vh; /* Use min-height instead of height */
 }
-
-
-
-
-
-
+/* MEDIA QUERIES */

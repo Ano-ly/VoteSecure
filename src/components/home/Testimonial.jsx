@@ -77,7 +77,7 @@ const Testimonial = () => {
   };
 
   return (
-    <div className="flex flex-col gap-5 items-center text-white text-opacity-40 hide-scrollbar">
+    <div className="flex flex-col bg-main_bg_color gap-5 items-center text-white text-opacity-40 hide-scrollbar">
       <div className="flex flex-col items-center mb-6">
         <h1 className="text-4xl font-bold gradient-text">Testimonial</h1>
         <p className="text-center lg:text-xl text-xs p-4">

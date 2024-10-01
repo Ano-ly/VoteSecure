@@ -8,8 +8,6 @@ import {
   Sharedlayout,
 } from './pages';
 
-// import './App.css';
-
 function App() {
   return (
     <NextUIProvider>

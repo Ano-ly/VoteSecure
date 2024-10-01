@@ -4,7 +4,7 @@ import { Button } from 'antd';
 
 const Revolution = () => {
   return (
-    <div className='flex flex-col py-5 gap-32 items-center text-white text-opacity-40 '>
+    <div className='flex flex-col bg-main_bg_color py-5 gap-32 items-center text-white text-opacity-40 '>
       <div className='flex flex-col  items-center text-center'>
         <h1 className='text-4xl font-bold gradient-text'>
           VoteSecure: Revolutionizing Elections with <br />

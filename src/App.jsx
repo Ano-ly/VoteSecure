@@ -6,6 +6,7 @@ import {
   Login,
   Adminsignup,
   Sharedlayout,
+  Voterlogin
 } from './pages';
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
             <Route index element={<Home/>} />
             <Route path="login" element={<Login />} />
             <Route path="adminsignup" element={<Adminsignup />} />
+            <Route path='voterlogin' element={<Voterlogin/>}/>
           </Route>
         </Routes>
       </BrowserRouter>

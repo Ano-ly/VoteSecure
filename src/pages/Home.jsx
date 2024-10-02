@@ -7,11 +7,11 @@ import Revolution from "../components/home/Revolution";
 
 const Home = () => {
   return (
-    <div className="main-hero-bg relative ">
-      <header className="">
-        <Navbar/>
+    <div className="main-hero-bg w-full overflow-x-hidden ">
+      <header>
+        <Navbar />
       </header>
-      <main>
+      <main className='flex flex-col gap-7 overflow-y-auto hide-scrollbar   bg-main_bg_color'>
         <Herosection/>
         <Features/>
         <Testimonial/>

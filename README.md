@@ -22,8 +22,6 @@ src/pages/home-adminsignup-login
 note- This is web3 development project: to interact with the blockchain technology, we are using web3.js libary and metamask wallet; Setup to be done after ui creation
 
 
-
-
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.

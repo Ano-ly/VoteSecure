@@ -1,6 +1,7 @@
 import React from 'react';
 import revicon from '/assets/Revicon.webp';
 import { Button } from 'antd';
+import { Link } from 'react-router-dom';
 
 const Revolution = () => {
   return (
@@ -24,7 +25,10 @@ const Revolution = () => {
           </p>
           <div className='flex  gap-3'>
             <Button className='w-2/5' size='large' type='primary'>
+            <Link to={'/Adminsignup'}>
               <p className='lg:text-base text-sm'>Sign up</p>
+            </Link>
+              
             </Button>
 
             <Button className='lg:w-2/5 sm:w-3/5' color='default' variant='outlined' size='large' ghost>

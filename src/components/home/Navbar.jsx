@@ -2,6 +2,8 @@ import React from "react";
 import logo from "/Favicon.webp";
 import { useState } from "react";
 
+import { Link } from 'react-router-dom';
+
 const Navbar = () => {
   const [Menu, setMenu] = useState(false);
   const toggleNav = () => {
@@ -75,12 +77,15 @@ const Navbar = () => {
             </a>
           </li>
           <li className="">
-            <a
-              href=""
-              className="text-ms text-white  text-sm p-1  border-b-2 border-transparent transition duration-300 hover:border-blue-600"
-            >
-              Login
-            </a>
+            <Link to={'/Login'}>
+               <a
+                href=""
+                className="text-ms text-white  text-sm p-1  border-b-2 border-transparent transition duration-300 hover:border-blue-600"
+              >
+                Login
+              </a>
+            </Link>
+           
           </li>
         </div>
       </div>

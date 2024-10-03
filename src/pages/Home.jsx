@@ -11,11 +11,11 @@ const Home = () => {
       <header>
         <Navbar />
       </header>
-      <main className='flex flex-col gap-7 overflow-y-auto hide-scrollbar   bg-main_bg_color'>
-        <Herosection/>
-        <Features/>
-        <Testimonial/>
-        <Revolution/>
+      <main className="flex flex-col  overflow-y-auto hide-scrollbar   ">
+        <Herosection />
+        <Features />
+        <Testimonial />
+        <Revolution />
       </main>
     </div>
   );

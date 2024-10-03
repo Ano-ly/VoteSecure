@@ -2,7 +2,7 @@ import React from "react";
 import logo from "/Favicon.webp";
 import { useState } from "react";
 
-import { Link } from 'react-router-dom';
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   const [Menu, setMenu] = useState(false);
@@ -42,7 +42,7 @@ const Navbar = () => {
         <div
           className={`${
             Menu ? "flex" : "hidden"
-          } bg-main_bg_color fixed flex-col p-6 gap-5 rounded-r-lg  top-12 left-0 z-50 border list-none justify-between items-center  sm:flex sm:flex-row sm:relative sm:top-auto  sm:right-auto md:bg-transparent sm:border-0 sm:p-2 sm:gap-8 md:gap-14 lg:gap-24`}
+          } bg-main_bg_color fixed flex-col p-6 gap-5 rounded-r-lg  top-12 left-0 z-50 border list-none justify-between items-center sm:bg-transparent sm:flex sm:flex-row sm:relative sm:top-auto  sm:right-auto md:bg-transparent sm:border-0 sm:p-2 sm:gap-8 md:gap-14 lg:gap-24`}
         >
           <li className="">
             <a
@@ -77,15 +77,14 @@ const Navbar = () => {
             </a>
           </li>
           <li className="">
-            <Link to={'/Login'}>
-               <a
+            <Link to={"/login"}>
+              <a
                 href=""
                 className="text-ms text-white  text-sm p-1  border-b-2 border-transparent transition duration-300 hover:border-blue-600"
               >
                 Login
               </a>
             </Link>
-           
           </li>
         </div>
       </div>

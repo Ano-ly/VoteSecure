@@ -8,13 +8,22 @@
     background-clip: text;
     color: transparent;
   }
-  .main-hero-bg{
+  .main-hero-bg {
     background-image: linear-gradient(#001646, #191919);
   }
   .main-hero-bg {
     background-image: linear-gradient(#001646, #191919);
   }
 
+  .input {
+    background-color: #37456580;
+  }
+  .container-r {
+    min-height: 100vh;
+  }
+  .vpage {
+    background-color: #002006;
+  }
 }
 
 :root {
@@ -30,22 +39,14 @@ body {
   box-sizing: border-box;
   outline: none;
 }
-  
-
-
-
 
 .card {
   transform: scale(0.8); /* Default scale for non-centered cards */
 }
 
-
-
 .slick-center .card {
   transform: scale(1); /* Scale to normal for the centered card */
 }
-
-
 
 .hide-scrollbar {
   overflow: hidden; /* Hide the scrollbar */
@@ -68,7 +69,6 @@ body {
   margin: 0;
   padding: 0;
   overflow-y: auto;
-
 
   /* min-width: 320px;
   min-height: 100vh; */
